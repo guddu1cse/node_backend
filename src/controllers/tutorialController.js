@@ -1,4 +1,12 @@
-import { getAllTutorials as fetchAllTutorials, getTutorialById as fetchTutorialById, removeTutorial as fetchRemoveTutorial, removeAllTutorials as fetchRemoveAllTutorials, updateTutorial as fetchUpdateTutorial, getPublishedTutorials as fetchAllPublishedTutorials, getTutorialByTitle as fetchTutorialByTitle } from "../query.js";
+import {
+    getAllTutorials as fetchAllTutorials,
+    getTutorialById as fetchTutorialById,
+    removeTutorial as fetchRemoveTutorial,
+    removeAllTutorials as fetchRemoveAllTutorials,
+    updateTutorial as fetchUpdateTutorial,
+    getPublishedTutorials as fetchAllPublishedTutorials,
+    getTutorialByTitle as fetchTutorialByTitle
+} from "../query.js";
 import { addTutorial } from "../query.js";
 
 const getAllTutorials = async (req, res) => {
